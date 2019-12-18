@@ -9,10 +9,12 @@ class String
       puts "false"
   end
 
-  def question?
-    
-
-  end
+  def question?(String)
+    if String.self.end_with? ("?")
+      puts "true"
+    else
+      puts "false"
+   end
 
   def exclamation?
 
